@@ -1,51 +1,53 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Cloudflare</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Cloudflare page</a>
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a
+            href="https://developers.cloudflare.com/pages/"
+            className={styles.card}
+          >
+            <h3>Documentation Cloudflare page&rarr;</h3>
+            <p>Find in-depth information about Cloudflare page features.</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://developers.cloudflare.com/pages/getting-started"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
+            <h3>Get started &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              In this guide, you'll get started with Cloudflare Pages, and
+              deploy your first website to the platform.
             </p>
+          </a>
+
+          <a
+            href="https://developers.cloudflare.com/pages/how-to"
+            className={styles.card}
+          >
+            <h3>How to &rarr;</h3>
+            <p>Discover and deploy deploy your app.</p>
+          </a>
+
+          <a
+            href="https://developers.cloudflare.com/pages/tutorials"
+            className={styles.card}
+          >
+            <h3>Tutorials &rarr;</h3>
+            <p>Some tutorial Cloudflare page.</p>
           </a>
         </div>
       </main>
@@ -56,10 +58,10 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
     </div>
-  )
+  );
 }
