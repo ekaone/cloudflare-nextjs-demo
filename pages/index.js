@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Cloudflare page</a>
+          Welcome to <a href="https://nextjs.org">Cloudflare page..</a>
         </h1>
 
         <div className={styles.grid}>
